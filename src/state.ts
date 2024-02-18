@@ -57,7 +57,7 @@ export const privchain1STF: STF<Privchain1sell, privchain1ActionInput> = {
 
 
      
-          currentBalance -= inputs.amount;
+          currentBalance += inputs.amount;
        
 
       balances[chainIndex] = currentBalance;
